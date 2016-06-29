@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Parcel Tracking</string>
+    <string name="enter_tracking_number">Enter tracking number</string>
+    <string name="track">Track</string>
+    <string name="please_enter_parcel_number">Please enter Parcel Number</string>
+    <string name="empty_string" />
+    <string name="delivered">Delivered</string>
+    <string name="parcel_number">Parcel Number</string>
+    <string name="parcel_number2">Parcel Number:</string>
+    <string name="full_name">Full Name</string>
+    <string name="levey_walk_waterloo_nsw_sydney_2000">Levey Walk, Waterloo NSW Sydney 2000</string>
+    <string name="delivery_to">Delivery to</string>
+    <string name="john_smith">John Smith</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="chippendale_nsw">Chippendale NSW</string>
+    <string name="status">Status</string>
+    <string name="in_transit">In Transit</string>
+    <string name="parcel_location">Parcel Location</string>
+    <string name="address_result" formatted="false">%s %s</string>
+    <string name="address_full" formatted="false">%s %s %s</string>
+    <string name="estimate_delivery_time">Estimate Delivery Time</string>
+    <string name="location_last_updated">Location last updated</string>
+    <string name="date_time_here">Date time here</string>
+    <string name="hours">" hours"</string>
+    <string name="not_available">Not Available</string>
+    <string name="geting_location">Getting Location....</string>
+    <string name="get_location_done">Getting Location Successful</string>
+    <string name="getting_data">Getting Data...</string>
+    <string name="get_data_done">Getting Data Successful</string>
+    <string name="invalid_parcel_number">Invalid Parcel Number</string>
+    <string name="error_title">Error</string>
+    <string name="ok_button">OK</string>
+    <string name="getting_parcel">Getting parcel...</string>
+    <string name="no_network">No Network Connection</string>
+    <string name="error">Error</string>
+    <string name="ok">OK</string>
+    <string name="parcel_position">parcelPosition</string>
+</resources>

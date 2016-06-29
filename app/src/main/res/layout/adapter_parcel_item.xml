@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/adapter_parcel_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/parcel_number"
+            android:paddingBottom="5dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/adapter_parcel_full_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/full_name"
+            android:textSize="15sp"
+            android:typeface="sans" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/adapter_linear_status_layout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_toEndOf="@+id/linearLayout"
+        android:layout_toRightOf="@+id/linearLayout"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/adapter_parcel_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/delivered"
+            android:paddingBottom="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp"
+            android:typeface="sans" />
+    </LinearLayout>
+</RelativeLayout>

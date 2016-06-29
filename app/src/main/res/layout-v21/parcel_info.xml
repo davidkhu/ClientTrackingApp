@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/parcel_number_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorGrey"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/parcel_number2"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/parcel_info_parcel_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:text="@string/parcel_number"
+            android:textColor="@color/colorBlack"
+            android:typeface="sans" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/parcel_number_layout"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:text="@string/delivery_to"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/parcel_info_delivery_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="@string/john_smith"
+            android:textColor="@color/colorBlack"
+            android:typeface="sans" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:text="@string/delivery_address"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/parcel_info_delivery_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="@string/chippendale_nsw"
+            android:textColor="@color/colorBlack"
+            android:typeface="sans" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:text="@string/status"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/parcel_info_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="@string/in_transit"
+            android:textColor="@color/colorBlack"
+            android:typeface="sans" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/parcel_item_track_parcel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:backgroundTint="@color/colorRed"
+        android:onClick="ParcelLocationButtonHandler"
+        android:text="@string/parcel_location"
+        android:textColor="@color/colorBlack"
+        android:typeface="sans"
+        android:visibility="gone" />
+</RelativeLayout>
